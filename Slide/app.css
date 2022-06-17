@@ -21,6 +21,10 @@
   animation-direction: alternate;
 }
 
+.box:hover {
+  animation-play-state: paused;
+}
+
 @keyframes slideRight {
   100% {
     transform: translateX(500px);
